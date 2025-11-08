@@ -1,19 +1,2 @@
 # emprestimos-app
 Meu app de empréstimos
-{
-  "buildCommand": "yarn build",
-  "outputDirectory": "build",
-  "framework": "create-react-app",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
-fastapi==0.110.1
-uvicorn==0.25.0
-motor==3.3.1
-pydantic>=2.6.4
-python-dotenv>=1.0.1
-python-multipart>=0.0.9
